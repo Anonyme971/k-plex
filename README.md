@@ -29,12 +29,8 @@ To execute the code, you simply type:
   Example of graph file:
   
   1 2 0
+
   1 3 0
-  1 4 0
-  2 3 0
-  2 4 0
-  3 4 0
-  3 5 0
   
   For example, to count maximal connected 2-plexes bigger than 1 on the 'example' graph, you should execute the following command:
   ./max_kplex -ncores=1 -min-size=2 -k=2 -verb=3 example
