@@ -29,4 +29,4 @@ To execute the code, you simply type:
   1 3 0
   
   For example, to count maximal connected 2-plexes bigger than 1 on the 'example' graph, you should execute the following command:
-  ./max_kplex -ncores=1 -min-size=2 -k=2 -verb=3 example
+  ./max_kplex  -min-size=2 -k=2 -verb=3 example
