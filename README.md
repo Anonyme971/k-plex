@@ -29,6 +29,7 @@ To execute the code, you simply type:
   Example of graph file:
   
   1 2 0
+  
   1 3 0
   
   For example, to count maximal connected 2-plexes bigger than 1 on the 'example' graph, you should execute the following command:
