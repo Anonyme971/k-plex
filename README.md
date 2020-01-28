@@ -7,16 +7,12 @@ an integer k as input and produces a propositional CNF formula where its models 
 Two additional constraints, namely the connectivity and size constraints, are also introduced to deal with the enumeration
 of maximal connected k-plexes of size at least $\alpha$.
 Interestingly, by setting k to 1, our encoding can be used to enumerate all maximal cliques.
---------------------------------------------------------------------------------------------
-To build the project, you need to run the following command line on the core folder:
-
-make
 
 ---------------------------------------------------------------------------------------------
 
 To execute the code, you simply type:
 
-./max_kplex -ncores=1 -min-size=$\alpha$ -k=$k$ -verb=0 graph-file
+./max_kplex -min-size=$\alpha$ -k=$k$ -verb=0 graph-file
 
 - $\alpha$: minimum size
 - $k$: k-plex
