@@ -2,8 +2,8 @@
 In this work, we propose a practical SAT-based approach to enumerating all maximal
 k-plexes of a graph. Our approach is based on a novel graph decomposition technique 
 leading to an efficient SAT-based k-plex encoding that scales up to graphs with millions of edges.
-At the core of our approach is an efficient SAT encoding which takes a graph and
-an integer k as input and produces a propositional CNF formula where its models correspond to the maximal k-plexes. 
+At the core of our approach is an efficient SAT encoding which takes a graph and an integer k as input and produces a propositional 
+CNF formula where its models correspond to the maximal k-plexes. 
 Two additional constraints, namely the connectivity and size constraints, are also introduced to deal with the enumeration
 of maximal connected k-plexes of size at least $\alpha$.
 Interestingly, by setting k to 1, our encoding can be used to enumerate all maximal cliques.
